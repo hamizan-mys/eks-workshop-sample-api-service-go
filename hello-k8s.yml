@@ -28,6 +28,7 @@ spec:
     metadata:
       labels:
         app: hello-k8s
+        sourceVer: REPO_SOURCE_VERSION
     spec:
       containers:
         - name: hello-k8s
