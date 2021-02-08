@@ -15,7 +15,7 @@ func main() {
 
 		f := fib()
 
-		res := &response{Message: "Hello World - VisMark #9: Push img tag latest, full flow, check re-deployment of k8s deploy, new label in k8sdep"}
+		res := &response{Message: "Hello World - VisMark #10: Push img tag latest, full flow, check re-deployment of k8s deploy, new label in k8sdep, imagePullPolicy: Always"}
 
 		for _, e := range os.Environ() {
 			pair := strings.Split(e, "=")
