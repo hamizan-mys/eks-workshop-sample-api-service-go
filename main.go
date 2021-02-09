@@ -15,7 +15,7 @@ func main() {
 
 		f := fib()
 
-		res := &response{Message: "Hello World - VisMark #12: Pull-always test"}
+		res := &response{Message: "Hello World - VisMark #13: Full flow retest"}
 
 		for _, e := range os.Environ() {
 			pair := strings.Split(e, "=")
